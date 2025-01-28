@@ -3409,7 +3409,7 @@ ul ul > li.has-sub > a:before {
 .footer_btn_wrapper {
     float: right;
 }
-.foter_contact_nav ul li p span{
+.foter_contact_nav ul li p span a{
     color: #ffffff;
     text-transform: lowercase !important;
 }
