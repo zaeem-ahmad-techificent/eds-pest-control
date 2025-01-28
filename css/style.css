@@ -3402,7 +3402,7 @@ ul ul > li.has-sub > a:before {
 }
 .foter_contact_nav li p {
     font-size: x-large;
-    color: #ffffff;
+    color: #cacaca;
     text-transform: capitalize;
     float: left;
 }
@@ -3410,7 +3410,7 @@ ul ul > li.has-sub > a:before {
     float: right;
 }
 .foter_contact_nav ul li p span{
-    color: #cacaca;
+    color: #ffffff;
     text-transform: lowercase !important;
 }
 .foter_contact_nav ul li a p:hover{
