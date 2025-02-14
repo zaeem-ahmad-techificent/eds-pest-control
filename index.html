@@ -46,6 +46,18 @@ Author: Webstrot
         }
     }
 
+    .styled-list {
+    margin-bottom: 0; /* Default margin */
+}
+
+/* Apply margin-bottom of 20px for small screens */
+@media (max-width: 768px) {
+    .styled-list {
+        margin-bottom: 20px;
+    }
+}
+
+
     h2 {
         font-weight: bold;
         font-size: 20px;
@@ -1075,7 +1087,7 @@ Author: Webstrot
                 </div>
                 <div class="container">
                     <div class="col-md-12">
-                        <ul class="center-list" style="font-weight: bold; color: #000000; ">
+                        <ul class="center-list styled-list" style="font-weight: bold; color: #000000; ">
                             <li><strong>Mosquito Control</strong></li>
                             <li><strong>Rodent Control</strong></li>
                             <li><strong>Roaches (Wood Roach and German Roach)</strong></li>
@@ -1089,8 +1101,8 @@ Author: Webstrot
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="left-list">
-                                <li><strong style=" color: #000000;">Ants:</strong>
-                                    <ol>
+                                <li><strong style="font-weight: bolder; color: #000000;">Ants:</strong>
+                                    <ol class="styled-list">
                                         <li>Fire Ants</li>
                                         <li>Crazy Ants</li>
                                         <li>Carpenter Ants</li>
@@ -1103,8 +1115,8 @@ Author: Webstrot
 
                        <div class="col-md-6">
                             <ul class="right-list">
-                                <li><strong style="color: #000000;">Insects:</strong>
-                                    <ol>
+                                <li><strong style="font-weight: bolder; color: #000000;">Insects:</strong>
+                                    <ol class="styled-list">
                                         <li>Beetles</li>
                                         <li>Weevils</li>
                                         <li>Crickets</li>
@@ -1123,8 +1135,8 @@ Author: Webstrot
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="left-list">
-                                <li><strong style="color: #000000;">Stinging Pests:</strong>
-                                    <ol>
+                                <li><strong style="font-weight: bolder; color: #000000;">Stinging Pests:</strong>
+                                    <ol class="styled-list">
                                         <li>Bees</li>
                                         <li>Wasps</li>
                                         <li>Hornets</li>
@@ -1136,7 +1148,7 @@ Author: Webstrot
                         </div>
                         <div class="col-md-6">
                             <ul class="right-list">
-                                <li><strong style="color: #000000;">Spiders and web removal (separate services):</strong>
+                                <li><strong style="font-weight: bolder; color: #000000;">Spiders and web removal (separate services):</strong>
 
                                 </li>
                             </ul>
