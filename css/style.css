@@ -2038,6 +2038,14 @@ ul ul > li.has-sub > a:before {
 .icon [class*=" flaticon-"]:after {
     margin-left: 0;
 }
+.rev-slidebg {
+    width: 100vw;   /* Ensures full width */
+    height: 100vh;  /* Ensures full height */
+    object-fit: contain;  /* Ensures the entire image is displayed */
+    background-size: contain !important;  /* Prevents cropping */
+    background-position: center center;
+}
+
 @-webkit-keyframes pulse {
     0% {
         -webkit-box-shadow: 0 0 0 0 #3a3a3a;
