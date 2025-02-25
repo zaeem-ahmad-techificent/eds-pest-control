@@ -2038,13 +2038,7 @@ ul ul > li.has-sub > a:before {
 .icon [class*=" flaticon-"]:after {
     margin-left: 0;
 }
-.rev-slidebg {
-    width: 100vw;   /* Ensures full width */
-    height: 100vh;  /* Ensures full height */
-    object-fit: contain;  /* Ensures the entire image is displayed */
-    background-size: contain !important;  /* Prevents cropping */
-    background-position: center center;
-}
+
 
 @-webkit-keyframes pulse {
     0% {
@@ -4987,7 +4981,7 @@ ul ul > li.has-sub > a:before {
     text-align: center;
 }
 .video_section_main_wrapper {
-    background: url('../images/vedio_bg.jpg') 50% 0 repeat-y;
+    /* background: url('../images/vedio_bg.jpg') 50% 0 repeat-y; */
     background-position: center 0;
     background-size: cover;
     background-repeat: no-repeat;
